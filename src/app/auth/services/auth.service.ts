@@ -1,7 +1,6 @@
 import {  Injectable, OnDestroy } from '@angular/core';
 import {
   Auth,
-  AuthError,
   GoogleAuthProvider,
   createUserWithEmailAndPassword, signInWithEmailAndPassword} from '@angular/fire/auth';
 import { Router } from '@angular/router';
